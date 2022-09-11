@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+
+  <h1 class="h2">Delete Customer </h1>
+</div>
+
+
+<div class="container-fluid text-center">
+
+  <p>Are you sure you want to delete the customer?</p>
+
+  <div class="clearfix">
+    <button type="submit" class="btn btn-success me-2" (click)="deleteCustomer()">Yes</button>
+    <button type="submit" class="btn btn-danger" [routerLink]="['list']">No</button>
+  </div>
+</div>
